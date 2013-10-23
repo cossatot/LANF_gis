@@ -13,32 +13,35 @@ For more information, contact Richard Styron (richard.h.styron at gmail.com).
 
 Greater Tibet
 ------
-Kongur Shan
-Leo Pargil
-Gurla Mandhata
-North Lunggar
-South Lunggar
-Nyainqentanghla
-Pum Qu - Xainza (segment)
-Ama Drime
+- Kongur Shan
+- Leo Pargil
+- Gurla Mandhata
+- North Lunggar
+- South Lunggar
+- Nyainqentanghla
+- Pum Qu - Xainza
+  - north segment
+  - Qingdu segment
+
 
 W. US
 -----
-Death Valley
-Panamint Valley
-Laguna Salada
-Dixie Valley
-SLC segment, Wasatch Fault Zone (check on this!)
+- Death Valley
+- Panamint Valley
+- Laguna Salada
+- Dixie Valley
+- SLC segment, Wasatch Fault Zone (check on this!)
 
 SE Asia
 -------
-Dayman Dome
-Papangeo *
-Tokorondo
+- Dayman Dome
+- Papangeo *
+- Tokorondo
 
 
 
 Italy
 -----
-Alto-Tiberina
+- Alto-Tiberina
 
+*= maybe not active?
