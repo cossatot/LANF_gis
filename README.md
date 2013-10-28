@@ -36,7 +36,7 @@ SE Asia
 -------
 - Dayman Dome
 - Papangeo *
-- Tokorondo
+- Tokorondo *
 
 
 
@@ -47,11 +47,11 @@ Italy
 
 Turkey
 ------
-- Menderes massif
+- Menderes massif *
 
 Greece
 -------
-
+??
 
 Andes
 ------
