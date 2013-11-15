@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document><Folder><name>LANFs</name>
+<Schema name="LANFs" id="LANFs">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Region" type="string"></SimpleField>
+	<SimpleField name="Init_age" type="float"></SimpleField>
+	<SimpleField name="Slip_rate" type="float"></SimpleField>
+	<SimpleField name="S_R_err" type="float"></SimpleField>
+	<SimpleField name="Dip" type="float"></SimpleField>
+	<SimpleField name="Dip_err" type="int"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+</Schema>
   <Placemark>
 	<name>Kongur_Shan</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Kongur_Shan</SimpleData>
 		<SimpleData name="Id">1</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">6.50000000000</SimpleData>
@@ -20,6 +33,7 @@
 	<name>Leo Pargil</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Leo Pargil</SimpleData>
 		<SimpleData name="Id">1</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">23.00000000000</SimpleData>
@@ -35,6 +49,7 @@
 	<name>Gurla Mandhata</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Gurla Mandhata</SimpleData>
 		<SimpleData name="Id">11</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">12.00000000000</SimpleData>
@@ -50,6 +65,7 @@
 	<name>North Lunggar Detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">North Lunggar Detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">12.00000000000</SimpleData>
@@ -65,6 +81,7 @@
 	<name>South Lunggar Detachement</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">South Lunggar Detachement</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">8.00000000000</SimpleData>
@@ -80,6 +97,7 @@
 	<name>Pum Qu - Xainza Rift, Qingdu segment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Pum Qu - Xainza Rift, Qingdu segment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">0.00000000000</SimpleData>
@@ -95,6 +113,7 @@
 	<name>Pum Qu - Xainza Rift, north segment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Pum Qu - Xainza Rift, north segment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">0.00000000000</SimpleData>
@@ -110,6 +129,7 @@
 	<name>Nyainqentanglha detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Nyainqentanglha detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Tibet</SimpleData>
 		<SimpleData name="Init_age">10.00000000000</SimpleData>
@@ -125,6 +145,7 @@
 	<name>Guney detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Guney detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Turkey</SimpleData>
 		<SimpleData name="Init_age">5.00000000000</SimpleData>
@@ -140,6 +161,7 @@
 	<name>Kuzey detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Kuzey detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Turkey</SimpleData>
 		<SimpleData name="Init_age">5.00000000000</SimpleData>
@@ -155,6 +177,7 @@
 	<name>Panamint Valley Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Panamint Valley Fault</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">western US</SimpleData>
 		<SimpleData name="Init_age">0.00000000000</SimpleData>
@@ -181,6 +204,7 @@
 	<name>Cordillera Blanca detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Cordillera Blanca detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Andes</SimpleData>
 		<SimpleData name="Init_age">6.00000000000</SimpleData>
@@ -196,6 +220,7 @@
 	<name>Tokorondo</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Tokorondo</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Init_age">0.00000000000</SimpleData>
 		<SimpleData name="Slip_rate">0.00000000000</SimpleData>
@@ -210,6 +235,7 @@
 	<name>Pompangeo detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Pompangeo detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Sulawesi</SimpleData>
 		<SimpleData name="Init_age">0.00000000000</SimpleData>
@@ -225,6 +251,7 @@
 	<name>Mai'iu detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Mai'iu detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">Woodlark</SimpleData>
 		<SimpleData name="Init_age">5.00000000000</SimpleData>
@@ -252,6 +279,7 @@
 	<name>Dixie Valley</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Dixie Valley</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">W. Us</SimpleData>
 		<SimpleData name="Init_age">30.00000000000</SimpleData>
@@ -267,6 +295,7 @@
 	<name>Canada David detachment</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Canada David detachment</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 		<SimpleData name="Region">W. US</SimpleData>
 		<SimpleData name="Init_age">0.00000000000</SimpleData>
@@ -278,15 +307,20 @@
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-115.328940405907247,32.030977794874161 -115.340242845684941,32.042280234651855 -115.341432576187856,32.050608348172261 -115.340242845684941,32.058936461692667 -115.340837710936398,32.067859440464531 -115.346786363450974,32.078567014990767 -115.354519611719923,32.090464320019919 -115.356304207474295,32.10236162504907 -115.353924746468465,32.111879469072392 -115.348570959205347,32.114258930078222 -115.33786338467911,32.118422986838425 -115.332509597415992,32.129725426616119 -115.343217171942229,32.13686380963361 -115.359278533731583,32.147571384159846 -115.37712449127531,32.155304632428795 -115.397349909824868,32.165417341703574 -115.418170193625883,32.17612491622981 -115.434231555415238,32.180883838241471 -115.442559668935644,32.189806817013334 -115.453862108713338,32.197540065282283 -115.458026165473541,32.210032235562892 -115.462785087485202,32.222524405843501 -115.459215895976456,32.236206306627025 -115.444939129941474,32.243344689644516 -115.437205881672526,32.251672803164922 -115.421739385134629,32.25464712942221 -115.409842080105477,32.248698476907634</coordinates></LineString>
   </Placemark>
-</Folder>
-<Schema name="LANFs" id="LANFs">
-	<SimpleField name="Id" type="int"></SimpleField>
-	<SimpleField name="Region" type="string"></SimpleField>
-	<SimpleField name="Init_age" type="float"></SimpleField>
-	<SimpleField name="Slip_rate" type="float"></SimpleField>
-	<SimpleField name="S_R_err" type="float"></SimpleField>
-	<SimpleField name="Dip" type="float"></SimpleField>
-	<SimpleField name="Dip_err" type="int"></SimpleField>
-	<SimpleField name="Source" type="string"></SimpleField>
-</Schema>
-</Document></kml>
+  <Placemark>
+	<name>Alto-Tiberina</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#LANFs">
+		<SimpleData name="Name">Alto-Tiberina</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Region">Italy</SimpleData>
+		<SimpleData name="Init_age">0.00000000000</SimpleData>
+		<SimpleData name="Slip_rate">2.40000000000</SimpleData>
+		<SimpleData name="S_R_err">3.00000000000</SimpleData>
+		<SimpleData name="Dip">25.00000000000</SimpleData>
+		<SimpleData name="Dip_err">5</SimpleData>
+		<SimpleData name="Source">Hreinsdottir and Bennet 2009 Geology</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>12.032231429729904,43.578413817824185 12.03818008224448,43.564137051789203 12.050077387273632,43.548670555251306 12.069113075320274,43.537962980725069 12.081010380349426,43.533204058713409 12.098856337893153,43.523686214690088 12.108374181916474,43.515358101169682 12.11194337342522,43.510599179158021 12.132168791974777,43.504650526643445 12.139307174992268,43.502271065637615 12.14882501901559,43.496322413123039 12.161317189296199,43.495727547871581 12.169050437565147,43.493348086865751 12.177378551085553,43.489184030105548 12.181542607845756,43.485019973345345 12.189870721366162,43.483235377590972 12.192250182371993,43.480855916585142 12.193439912874908,43.477881590327854 12.195224508629281,43.475502129322024 12.211285870418635,43.473122668316194 12.221398579693414,43.467174015801618 12.226157501705075,43.459440767532669 12.230916423716735,43.452302384515178 12.237459941482768,43.443379405743315 12.236865076231311,43.437430753228739 12.233295884722565,43.432671831217078 12.23210615421965,43.425533448199587 12.231511288968193,43.418395065182096 12.232701019471108,43.411851547416063 12.234485615225481,43.403523433895657 12.234485615225481,43.397574781381081 12.239839402488599,43.391031263615048 12.239839402488599,43.386272341603387 12.239839402488599,43.377349362831524 12.241029132991514,43.36604692305383 12.242813728745887,43.359503405287796 12.254116168523581,43.352365022270305 12.267203204055647,43.351770157018848 12.273746721821681,43.350580426515933 12.279695374336256,43.348200965510102 12.289808083611035,43.341657447744069 12.294567005622696,43.336303660480951 12.297541331879984,43.328570412212002 12.297541331879984,43.322026894445969 12.302300253891644,43.313698780925563 12.304679714897475,43.312509050422648 12.313007828417881,43.307750128410987 12.317766750429541,43.303586071650784 12.32787945970432,43.297637419136208 12.339181899482014,43.292878497124548 12.346915147750963,43.28990417086726 12.354053530768454,43.283360653101226 12.360597048534487,43.281576057346854 12.366545701049063,43.276817135335193 12.36714056630052,43.27027361756916 12.374278949318011,43.264919830306042 12.379632736581129,43.261945504048754 12.380227601832587,43.254212255779805 12.383796793341332,43.250048199019602 12.387960850101535,43.245289277007942 12.390340311107366,43.23577143298462 12.389745445855908,43.230417645721502 12.392719772113196,43.223874127955469 12.399263289879229,43.220899801698181 12.403427346639432,43.211976822926317 12.404617077142348,43.206623035663199 12.409375999154008,43.202458978902996 12.413540055914211,43.198889787394251 12.414729786417126,43.195320595885505 12.42127330418316,43.192346269628217 12.420083573680245,43.183423290856354 12.420678438931702,43.17450031208449 12.424842495691905,43.167956794318457 12.436739800721057,43.164982468061169 12.446852509995836,43.15962868079805 12.451611432007496,43.156654354540763 12.453990893013327,43.151300567277644 12.455775488767699,43.147136510517441 12.46053441077936,43.143567319008696</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>
