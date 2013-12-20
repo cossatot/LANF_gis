@@ -30,7 +30,6 @@ W. US
 - Panamint Valley
 - Laguna Salada
 - Dixie Valley
-- SLC segment, Wasatch Fault Zone (check on this!)
 
 SE Asia
 -------
@@ -51,7 +50,7 @@ Turkey
 
 Greece
 -------
-??
+??  I don't think anything daylights.
 
 Andes
 ------
